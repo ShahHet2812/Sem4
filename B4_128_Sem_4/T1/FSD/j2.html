@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a={
+            "name":"abc",
+            "age":20,
+            "subjects":{"FSD-2":"NAS","FCSP-2":"TAT"},//Object dtype
+            "marks":[24,22,18,17],//array dtype
+            "ispass":true, //boolean dtype
+            "test":null,    //null dtype
+            "a1":undefined
+        }
+        console.log(a)
+        console.log(a.subject)
+        var jString=JSON.stringify(a)
+        console.log(jString)
+        console.log(jString.name)
+        jParse=JSON.parse(jString)
+        console.log(jParse)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
