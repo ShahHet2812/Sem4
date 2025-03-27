@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    const msg=function(){
+        console.log("test")
+    }
+    setTimeout(msg,5000)
+
+    setTimeout(function(){
+        console.log("Test2")
+    },3000)
+
+    setTimeout(()=>{
+        console.log("Test3")
+    },2000)
+
+    function test(){
+        console.log("Test4")
+    }
+    setTimeout(test,5000)
+
+    function myfun(){
+        K=document.getElementById("c").innerHTML="PRAJAPATI KISHAN"
+    }
+    setTimeout(myfun,5000)
+
+    const m=function(a,b){
+        a=a+1
+        b=b+1
+        console.log(a+b)
+    }
+    a=2
+    b=4
+    
+    setTimeout(m,5000)
+
+
+</script>
+<body>
+    <h1 id="c">PARMAR KISHAN</h1>
+    
+</body>
+</html>

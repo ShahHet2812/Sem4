@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var font=50
+    function fun1(font){
+        document.getElementById("p1").style.fontSize=font+"px";
+    }
+    function fun(){
+        test=setInterval(()=>{if (font<=100){
+            fun1(font++)
+        }},1000)
+
+    }
+    function fund(){
+        test=setInterval(()=>{if (font<=100){
+            fun1(font--)
+        }},1000)
+
+    }
+    function funs(){
+        clearInterval(test)
+    }
+</script>
+<body>
+    <p id="p1">KISHAN</p>
+    <button onclick="fun()">Increase</button>
+    <button onclick="fund()">Decress</button>
+    <button onclick="funs()">Stop</button>
+</body>
+</html>
