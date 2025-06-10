@@ -1,6 +1,8 @@
+import Main from './routing/Main'
 function Myapp(){
+
     return(
-        <h1>First Example</h1>
+        <Main/>
     )
 }
 export default Myapp;

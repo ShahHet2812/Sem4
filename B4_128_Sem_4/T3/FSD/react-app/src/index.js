@@ -11,8 +11,16 @@ import "./index.css";
 // import FM1 from './FM1';
 // import Parent from './Parent';
 // import Example from "./Example";
-import Events from "./Events";
+// import US1 from "./US1";
+// import US2 from "./US2";
+// import US3 from "./US3";
+// import US4 from "./US4";
+// import US5 from "./US5";
+// import UR3 from "./UR3";
+import Parent from './UC/Parent.js'
+// import Events from "./Events";
 // import ProductList from "./ProductList";
+// import E1 from "./E1";
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -29,7 +37,11 @@ root.render(
     {/* <Parent/> */}
     {/* <ProductList /> */}
     {/* <Example/> */}
-    <Events/>
+    {/* <Events/> */}
+    {/* <E1/> */}
+    {/* <US5/> */}
+    {/* <UR3/> */}
+    <Parent/>
   </React.StrictMode>
 );
 // reportWebVitals();
